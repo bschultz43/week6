@@ -3,8 +3,6 @@
 <head>
 <title>Lighthouse Bistro</title>
 <meta charset="utf-8">
-  <!-- Added meta description for SEO -->
-
 <style>
 	
 * { box-sizing: border-box; margin: 0; }
@@ -57,7 +55,7 @@ footer { background-color: #869DC7;
 }
 #offer { background-color: #eaeaea;
           width: 10em;
-		    margin: 2em auto 0 auto;
+		  margin: auto;
 		  text-align: center;
 }
 #offer a { text-decoration: none;
@@ -65,28 +63,15 @@ footer { background-color: #869DC7;
 }
 header, main, nav, figure, footer { display: block; }
 @media only screen and (min-width: 768px) {
-  #content {
-    display: flex;
-  }
-
-  nav {
-    flex: none;
-  }
-
-  main {
-    flex: 6;
-    min-width: 20em;
-    background-color: #FFFFFF;
-  }
-
-  aside {
-    flex: 4;
-    background-color: #EAEAEA;
-  }
-
-  header {
-    padding-left: 10em;
-  }
+#content { display: flex; }   
+nav      { flex: none; 
+}
+main     { flex: 6; 
+           min-width: 20em; 
+           background-color: #FFFFFF; }
+aside    { flex: 4; 
+            background-color: #EAEAEA; }
+header { padding-left: 10em;
 }
 </style> 
 </head>
